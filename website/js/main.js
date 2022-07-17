@@ -307,8 +307,24 @@
                     }],
                 }
             });
+ 
         }
+ // energieverbrauch
+ if ($("#energieverbrauch").length !== 0) {
+    var ctx = document.getElementById('energieverbrauch').getContext('2d');
+    var energieverbrauch = new Chart(ctx,{
+        type: 'pie',
+        data: {
+            labels: ["Produktion und Logistik", "Innerhalb der Nutzungsdauer"],
+            datasets: [{
+             
+                data: [60,40],
+                backgroundColor: [ 'rgba(10, 20, 10, 0.8)','rgba(149, 191, 11, 0.8)'],
+            }],
+        }
+    });
 
+}
         /*------------------------------------
             14. Sliders
         --------------------------------------*/

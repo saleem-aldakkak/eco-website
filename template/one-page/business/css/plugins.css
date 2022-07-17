@@ -1,0 +1,35 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Business Template
+    Description: Onepage Business Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("../../../css/plugins/bootstrap.min.css");
+
+/* == animate Headline == */
+@import url("../../../css/plugins/animate.css");
+
+/* == fontawesome icon font == */
+@import url("../../../css/plugins/fontawesome-all.min.css");
+
+/* == themify icon font == */
+@import url("../../../css/plugins/themify-icons.css");
+
+/* == magnific-popup == */
+@import url("../../../css/plugins/magnific-popup.css");
+
+/* == lightgallery css == */
+@import url("../../../css/plugins/lightgallery.css");
+
+/* == owl.carousel == */
+@import url("../../../css/plugins/owl.carousel.css");
+
+/* == helper classes == */
+@import url("../../../css/plugins/default.css");

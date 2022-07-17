@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- metas -->
+    <meta charset="utf-8">
+    <meta name="author" content="Chitrakoot Web" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="admin,dashboard" />
+    <meta name="description" content="Crizal - Responsive Admin Dashboard Template" />
+
+    <!-- title  -->
+    <title>Crizal - Responsive Admin Dashboard Template</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/logos/favicon.png">
+    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png">
+
+    <!-- common plugins -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="plugins/icomoon/style.css" />
+    <link rel="stylesheet" href="plugins/uniform/css/default.css" />
+    <link rel="stylesheet" href="plugins/switchery/switchery.min.css" />
+
+    <!-- gridgallery plugin -->
+    <link rel="stylesheet" href="plugins/gridgallery/css/component.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- custom css -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- PAGE LOADING
+    ================================================== -->
+    <div id="preloader"></div>
+
+    <!-- PAGE CONTAINER
+    ================================================== -->
+    <div class="page-container">
+
+        <!-- PAGE SIDEBAR
+        ================================================== -->
+        <div class="page-sidebar">
+            <a class="logo-box" href="index.html">
+                <span>Crizal</span>
+                <i class="icon-radio_button_unchecked" id="fixed-sidebar-toggle-button"></i>
+                <i class="icon-close" id="sidebar-toggle-button-close"></i>
+            </a>
+            <div class="page-sidebar-inner">
+                <div class="page-sidebar-menu">
+                    <ul class="accordion-menu">
+                        <li>
+                            <a href="index.html">
+                                <i class="menu-icon icon-home4"></i><span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="email.html">
+                                <i class="menu-icon icon-inbox"></i><span>Email</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="menu-icon icon-flash_on"></i><span>UI Kits</span><i class="accordion-icon fa fa-angle-left"></i>
+                            </a>
+                            <ul>
+                                <li><a href="ui-alerts.html">Alerts</a></li>
+                                <li><a href="ui-accordion.html">Accordion</a></li>
+                                <li><a href="ui-buttons.html">Buttons</a></li>
+                                <li><a href="ui-icons.html">Icons</a></li>
+                                <li><a href="ui-typography.html">Typography</a></li>
+                                <li><a href="ui-notifications.html">Notifications</a></li>
+                                <li><a href="ui-modals.html">Modals</a></li>
+                                <li><a href="ui-progress.html">Progress Bars</a></li>
+                                <li><a href="ui-tabs.html">Tabs</a></li>
+                                <li><a href="ui-tree-view.html">Tree View</a></li>
+                                <li><a href="ui-nestable.html">Nestable</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="menu-icon icon-layers"></i><span>Layouts</span><i class="accordion-icon fa fa-angle-left"></i>
+                            </a>
+                            <ul>
+                                <li><a href="layout-blank.html">Blank Page</a></li>
+                                <li><a href="layout-boxed.html">Boxed Layout</a></li>
+                                <li><a href="layout-collapsed-sidebar.html">Collapsed Sidebar</a></li>
+                                <li><a href="layout-fixed-header.html">Fixed Header</a></li>
+                                <li><a href="layout-fixed-sidebar.html">Fixed Sidebar</a></li>
+                                <li><a href="layout-fixed-sidebar-header.html">Fixed Sidebar &amp; Header</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="menu-icon icon-code"></i><span>Forms</span><i class="accordion-icon fa fa-angle-left"></i>
+                            </a>
+                            <ul>
+                                <li><a href="form-elements.html">Elements</a></li>
+                                <li><a href="form-wizard.html">Form Wizard</a></li>
+                                <li><a href="form-file-upload.html">File Upload</a></li>
+                                <li><a href="form-image-crop.html">Image Crop</a></li>
+                                <li><a href="form-image-zoom.html">Image Zoom</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="menu-icon icon-format_list_bulleted"></i><span>Tables</span><i class="accordion-icon fa fa-angle-left"></i>
+                            </a>
+                            <ul>
+                                <li><a href="table-static.html">Static</a></li>
+                                <li><a href="table-responsive.html">Responsive</a></li>
+                                <li><a href="table-data.html">Data Tables</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="charts.html">
+                                <i class="menu-icon icon-show_chart"></i><span>Charts</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="menu-icon icon-my_location"></i><span>Maps</span><i class="accordion-icon fa fa-angle-left"></i>
+                            </a>
+                            <ul>
+                                <li><a href="maps-google.html">Google</a></li>
+                                <li><a href="maps-vector.html">Vector</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="menu-icon icon-star"></i><span>Extra</span><i class="accordion-icon fa fa-angle-left"></i>
+                            </a>
+                            <ul>
+                                <li><a href="invoice.html">Invoice</a></li>
+                                <li><a href="404.html">404 Page</a></li>
+                                <li><a href="500.html">500 Page</a></li>
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="lockscreen.html">Lockscreen</a></li>
+                                <li><a href="todo.html">Todo</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                                <li><a href="timeline.html">Timeline</a></li>
+                                <li><a href="calendar.html">Calendar</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-divider"></li>
+                        <li>
+                            <a href="#!">
+                                <i class="menu-icon icon-public"></i><span>Changelog</span><span class="label label-danger">1.0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE CONTENT
+        ================================================== -->
+        <div class="page-content">
+
+            <!-- start page header -->
+            <div class="page-header">
+                <div class="search-form">
+                    <form action="#" method="GET">
+                        <div class="input-group">
+                            <input type="text" name="search" class="form-control search-input" placeholder="Type something...">
+                            <span class="input-group-btn">
+                                    <button class="btn btn-default" id="close-search" type="button"><i class="icon-close"></i></button>
+                                </span>
+                        </div>
+                    </form>
+                </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <div class="logo-sm">
+                                <a href="#!" id="sidebar-toggle-button"><i class="fa fa-bars"></i></a>
+                                <a class="logo-box" href="index.html"><span>Crizal</span></a>
+                            </div>
+                            <button type="button" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <i class="fa fa-angle-down"></i>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#!" id="collapsed-sidebar-toggle-button"><i class="fa fa-bars"></i></a></li>
+                                <li><a href="#!" id="toggle-fullscreen"><i class="fa fa-expand"></i></a></li>
+                                <li><a href="#!" id="search-button"><i class="fa fa-search"></i></a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#!" class="right-sidebar-toggle" data-sidebar-id="main-right-sidebar"><i class="fa fa-envelope"></i></a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" type="button" id="dropdownMenuButton1" aria-expanded="false"><i class="fa fa-bell"></i></a>
+                                    <ul class="dropdown-menu dropdown-lg dropdown-content" aria-labelledby="dropdownMenuButton1">
+                                        <li class="drop-title">Notifications<a href="#" class="drop-title-link"><i class="fa fa-angle-right"></i></a></li>
+                                        <li class="slimscroll dropdown-notifications">
+                                            <ul class="list-unstyled dropdown-oc">
+                                                <li>
+                                                    <a href="#"><span class="notification-badge bg-primary"><i class="fa fa-photo"></i></span>
+                                                            <span class="notification-info">Finished uploading photos to gallery <b>"South Africa"</b>.
+                                                                <small class="notification-date">20:00</small>
+                                                            </span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><span class="notification-badge bg-primary"><i class="fa fa-at"></i></span>
+                                                            <span class="notification-info"><b>John Doe</b> mentioned you in a post "Update v1.5".
+                                                                <small class="notification-date">06:07</small>
+                                                            </span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><span class="notification-badge bg-danger"><i class="fa fa-bolt"></i></span>
+                                                            <span class="notification-info">4 new special offers from the apps you follow!
+                                                                <small class="notification-date">Yesterday</small>
+                                                            </span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><span class="notification-badge bg-success"><i class="fa fa-bullhorn"></i></span>
+                                                            <span class="notification-info">There is a meeting with <b>Ethan</b> in 15 minutes!
+                                                                <small class="notification-date">Yesterday</small>
+                                                            </span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown user-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" type="button" aria-expanded="false"><img src="img/avatars/user-dropdown.jpg" alt="..." class="rounded-circle"></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                                        <li><a class="dropdown-item" href="#">Calendar</a></li>
+                                        <li><a class="dropdown-item" href="#"><span class="badge float-end bg-danger">42</span>Messages</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a class="dropdown-item" href="#">Account Settings</a></li>
+                                        <li><a class="dropdown-item" href="#">Log Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+            <!-- end page header -->
+
+            <!-- start page inner -->
+            <div class="page-inner">
+                <div class="page-title">
+                    <h3 class="breadcrumb-header">Gallery</h3>
+                </div>
+                <!-- start page main wrapper -->
+                <div id="main-wrapper">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-white">
+                                <div class="card-body">
+                                    <div id="grid-gallery" class="grid-gallery">
+                                        <section class="grid-wrap">
+                                            <ul class="grid">
+                                                <li class="grid-sizer"></li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio01.jpg" alt="img01">
+                                                        <figcaption><h3>Circular Wood Vase</h3><p>Mollit anim id est laborum. Sed ut perspiciatis.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio02.jpg" alt="img02">
+                                                        <figcaption><h3>Tradition Art</h3><p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio03.jpg" alt="img03">
+                                                        <figcaption><h3>Groth smart goal</h3><p> Voluptate velit esse cillum dolore eu fugiat nulla pariatur proident.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio04.jpg" alt="img04">
+                                                        <figcaption><h3>Fly Dreams</h3><p>Quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio06.jpg" alt="img05">
+                                                        <figcaption><h3>Plastic Durable</h3><p>quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio05.jpg" alt="img06">
+                                                        <figcaption><h3>Balloons Mockup</h3><p>Sed ut perspiciatis unde omnis iste.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio07.jpg" alt="img01">
+                                                        <figcaption><h3>Woodan var decor</h3><p>Mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio08.jpg" alt="img02">
+                                                        <figcaption><h3>Fries Box Mockup</h3><p>ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio09.jpg" alt="img03">
+                                                        <figcaption><h3>Sugar-Jar-Spoon-Mockup</h3><p>anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio10.jpg" alt="img04">
+                                                        <figcaption><h3>Unpainted Ceramic Vases</h3><p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio11.jpg" alt="img05">
+                                                        <figcaption><h3>Cup-Cookies-Mockup</h3><p>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio12.jpg" alt="img01">
+                                                        <figcaption><h3>Bottle locavore</h3><p>voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio13.jpg" alt="img01">
+                                                        <figcaption><h3>Tea cup Mocup</h3><p>vitae dicta sunt explicabo.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio14.jpg" alt="img02">
+                                                        <figcaption><h3>Mocup fress</h3><p>onsectetur adipisicing elit, sed do eiusmod tempor incididunt.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio15.jpg" alt="img03">
+                                                        <figcaption><h3>Brunch Leaves</h3><p>natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio16.jpg" alt="img04">
+                                                        <figcaption><h3>Decore Idea</h3><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio23.jpg" alt="img05">
+                                                        <figcaption><h3>Booklet Mockup</h3><p>ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio24.jpg" alt="img06">
+                                                        <figcaption><h3>Tranding art</h3><p>voluptatem sequi nesciunt.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio17.jpg" alt="img01">
+                                                        <figcaption><h3>Design Shooes</h3><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio18.jpg" alt="img02">
+                                                        <figcaption><h3>Sea Shell On Sand</h3><p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio19.jpg" alt="img03">
+                                                        <figcaption><h3>Star Code Sea</h3><p>oluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio20.jpg" alt="img04">
+                                                        <figcaption><h3>Digital Points</h3><p>sed quia consequuntur magni dolores eos qui ratione.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio21.jpg" alt="img05"/>
+                                                        <figcaption><h3>Yellow Mind Change</h3><p>dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius moditempora.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <img src="img/gallery/portfolio22.jpg" alt="img01">
+                                                        <figcaption><h3>Blue Water Duck</h3><p>mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p></figcaption>
+                                                    </figure>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                        <section class="slideshow">
+                                            <ul>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Circular Wood Vase</h3>
+                                                            <p>Mollit anim id est laborum. Sed ut perspiciatis.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.consectetur, adipisci velit.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio01.jpg" alt="img01">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Tradition Art</h3>
+                                                            <p>adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit adipisci velit.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio02.jpg" alt="img02">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Groth smart goal</h3>
+                                                            <p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur proident. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.consectetur, adipisci velit.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio03.jpg" alt="img03">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Fly Dreams</h3>
+                                                            <p>Quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.Shabby chic lomo polaroid, scenester 8-bit Portland Pitchfork VHS tote bag.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio04.jpg" alt="img04">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Plastic Durable</h3>
+                                                            <p>quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio06.jpg" alt="img06">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Balloons Mockup</h3>
+                                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio05.jpg" alt="img05">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Woodan var decor</h3>
+                                                            <p>Mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio07.jpg" alt="img07">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Fries Box Mockup</h3>
+                                                            <p>ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio08.jpg" alt="img08">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Sugar-Jar-Spoon-Mockup</h3>
+                                                            <p>anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio09.jpg" alt="img09">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Unpainted Ceramic Vases</h3>
+                                                            <p>Tsit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio10.jpg" alt="img10">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Cup-Cookies-Mockup</h3>
+                                                            <p>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio11.jpg" alt="img11">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Bottle locavore</h3>
+                                                            <p>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio12.jpg" alt="img12">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Tea cup Mocup</h3>
+                                                            <p>vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio13.jpg" alt="img13">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Mocup fress</h3>
+                                                            <p>onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio14.jpg" alt="img14">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Brunch Leaves</h3>
+                                                            <p>natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio15.jpg" alt="img15">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Decore Idea</h3>
+                                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio16.jpg" alt="img16">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Booklet Mockup</h3>
+                                                            <p>ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio23.jpg" alt="img23">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Tranding art</h3>
+                                                            <p>voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio24.jpg" alt="img24">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Design Shooes</h3>
+                                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsaSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio17.jpg" alt="img17">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Sea Shell On Sand</h3>
+                                                            <p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio18.jpg" alt="img18">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Star Code Sea</h3>
+                                                            <p>oluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio19.jpg" alt="img19">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Digital Points</h3>
+                                                            <p>sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio20.jpg" alt="img20">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Yellow Mind Change</h3>
+                                                            <p>dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius moditempora  incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio21.jpg" alt="img21">
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <figcaption>
+                                                            <h3>Blue Water Duck</h3>
+                                                            <p>mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim .</p>
+                                                        </figcaption>
+                                                        <img src="img/gallery/portfolio22.jpg" alt="img22">
+                                                    </figure>
+                                                </li>
+                                            </ul>
+                                            <nav>
+                                                <span class="fa fa-angle-left nav-prev"></span>
+                                                <span class="fa fa-angle-right nav-next"></span>
+                                                <span class="icon-close nav-close"></span>
+                                            </nav>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- end page main wrapper -->
+                <div class="page-footer">
+                    <p>Copyright &copy; <span class="current-year"></span> Crizal All rights reserved.</p>
+                </div>
+            </div>
+            <!-- end page inner -->
+            
+            <!-- start page right sidebar -->
+
+            <!-- start main right sidebar -->
+            <div class="page-right-sidebar" id="main-right-sidebar">
+                <div class="page-right-sidebar-inner">
+                    <div class="right-sidebar-top">
+                        <div class="right-sidebar-tabs">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active" id="chat-tab"><a href="#chat" aria-controls="chat" type="tab" data-bs-toggle="tab">chat</a></li>
+                                <li role="presentation" id="settings-tab"><a href="#settings" aria-controls="settings" type="tab" data-bs-toggle="tab">settings</a></li>
+                            </ul>
+                        </div>
+                        <a href="#!" class="right-sidebar-toggle right-sidebar-close" data-sidebar-id="main-right-sidebar"><i class="icon-close"></i></a>
+                    </div>
+                    <div class="right-sidebar-content">
+                        <!-- start tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="chat">
+                                <div class="chat-list">
+                                    <span class="chat-title">Recent</span>
+                                    <a href="#!" class="right-sidebar-toggle chat-item unread" data-sidebar-id="chat-right-sidebar">
+                                        <div class="user-avatar">
+                                            <img src="img/avatars/chat01.jpg" alt="...">
+                                        </div>
+                                        <div class="chat-info">
+                                            <span class="chat-author">David</span>
+                                            <span class="chat-text">where u at?</span>
+                                            <span class="chat-time">08:50</span>
+                                        </div>
+                                    </a>
+                                    <a href="#!" class="right-sidebar-toggle chat-item unread active-user" data-sidebar-id="chat-right-sidebar">
+                                        <div class="user-avatar">
+                                            <img src="img/avatars/chat02.jpg" alt="...">
+                                        </div>
+                                        <div class="chat-info">
+                                            <span class="chat-author">Daisy</span>
+                                            <span class="chat-text">Daisy sent a photo.</span>
+                                            <span class="chat-time">11:34</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="chat-list">
+                                    <span class="chat-title">Older</span>
+                                    <a href="#!" class="right-sidebar-toggle chat-item" data-sidebar-id="chat-right-sidebar">
+                                        <div class="user-avatar">
+                                            <img src="img/avatars/chat03.jpg" alt="...">
+                                        </div>
+                                        <div class="chat-info">
+                                            <span class="chat-author">Tom</span>
+                                            <span class="chat-text">You: ok</span>
+                                            <span class="chat-time">2d</span>
+                                        </div>
+                                    </a>
+                                    <a href="#!" class="right-sidebar-toggle chat-item active-user" data-sidebar-id="chat-right-sidebar">
+                                        <div class="user-avatar">
+                                            <img src="img/avatars/chat04.jpg" alt="...">
+                                        </div>
+                                        <div class="chat-info">
+                                            <span class="chat-author">Anna</span>
+                                            <span class="chat-text">asdasdasd</span>
+                                            <span class="chat-time">4d</span>
+                                        </div>
+                                    </a>
+                                    <a href="#!" class="right-sidebar-toggle chat-item active-user" data-sidebar-id="chat-right-sidebar">
+                                        <div class="user-avatar">
+                                            <img src="img/avatars/chat05.jpg" alt="...">
+                                        </div>
+                                        <div class="chat-info">
+                                            <span class="chat-author">Liza</span>
+                                            <span class="chat-text">asdasdasd</span>
+                                            <span class="chat-time">&nbsp;</span>
+                                        </div>
+                                    </a>
+                                    <a href="#!" class="load-more-messages" data-bs-toggle="tooltip" data-placement="bottom" title="Load More">&bull;&bull;&bull;</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="settings">
+                                <div class="right-sidebar-settings">
+                                    <span class="settings-title">General Settings</span>
+                                    <ul class="sidebar-setting-list list-unstyled">
+                                        <li>
+                                            <span class="settings-option">Notifications</span>
+                                            <input type="checkbox" class="js-switch" checked />
+                                        </li>
+                                        <li>
+                                            <span class="settings-option">Activity log</span>
+                                            <input type="checkbox" class="js-switch" checked />
+                                        </li>
+                                        <li>
+                                            <span class="settings-option">Automatic updates</span>
+                                            <input type="checkbox" class="js-switch" />
+                                        </li>
+                                        <li>
+                                            <span class="settings-option">Allow backups</span>
+                                            <input type="checkbox" class="js-switch" />
+                                        </li>
+                                    </ul>
+                                    <span class="settings-title">Account Settings</span>
+                                    <ul class="sidebar-setting-list list-unstyled">
+                                        <li>
+                                            <span class="settings-option">Chat</span>
+                                            <input type="checkbox" class="js-switch" checked />
+                                        </li>
+                                        <li>
+                                            <span class="settings-option">Incognito mode</span>
+                                            <input type="checkbox" class="js-switch" />
+                                        </li>
+                                        <li>
+                                            <span class="settings-option">Public profile</span>
+                                            <input type="checkbox" class="js-switch" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end main right sidebar -->
+
+            <!-- start chat right sidebar -->
+            <div class="page-right-sidebar" id="chat-right-sidebar">
+                <div class="page-right-sidebar-inner">
+                    <div class="right-sidebar-top">
+                        <div class="chat-top-info">
+                            <span class="chat-name">Noah</span>
+                            <span class="chat-state">2h ago</span>
+                        </div>
+                        <a href="#!" class="right-sidebar-toggle chat-sidebar-close float-end" data-sidebar-id="chat-right-sidebar"><i class="icon-keyboard_arrow_right"></i></a>
+                    </div>
+                    <div class="right-sidebar-content">
+                        <div class="right-sidebar-chat slimscroll">
+                            <div class="chat-bubbles">
+                                <div class="chat-start-date">02/03/2019 5:58PM</div>
+                                <div class="chat-bubble them">
+                                    <div class="chat-bubble-img-container">
+                                        <img src="img/avatars/chat06.jpg" alt="...">
+                                    </div>
+                                    <div class="chat-bubble-text-container">
+                                        <span class="chat-bubble-text">Hello</span>
+                                    </div>
+                                </div>
+                                <div class="chat-bubble me">
+                                    <div class="chat-bubble-text-container">
+                                        <span class="chat-bubble-text">Hello!</span>
+                                    </div>
+                                </div>
+                                <div class="chat-start-date">03/02/2019 5:18AM</div>
+                                <div class="chat-bubble me">
+                                    <div class="chat-bubble-text-container">
+                                        <span class="chat-bubble-text">lorem</span>
+                                    </div>
+                                </div>
+                                <div class="chat-bubble them">
+                                    <div class="chat-bubble-img-container">
+                                        <img src="img/avatars/chat07.jpg" alt="...">
+                                    </div>
+                                    <div class="chat-bubble-text-container">
+                                        <span class="chat-bubble-text">ipsum dolor sit amet</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-write">
+                            <form class="form-horizontal" action="javascript:void(0);">
+                                <input type="text" class="form-control" placeholder="Say something">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end chat right sidebar -->
+
+            <!-- end page right sidebar -->
+            
+        </div>
+
+    </div>
+
+    <!-- SCROLL TO TOP
+    ================================================== -->
+    <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
+
+    <!-- all js include start -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery-3.1.0.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- slimscroll -->
+    <script src="plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- uniform -->
+    <script src="plugins/uniform/js/jquery.uniform.standalone.js"></script>
+
+    <!-- switchery -->
+    <script src="plugins/switchery/switchery.min.js"></script>
+
+    <!-- gridgallery modernizr.custom -->
+    <script src="plugins/gridgallery/js/modernizr.custom.js"></script>
+
+    <!-- imagesloaded -->
+    <script src="plugins/gridgallery/js/imagesloaded.pkgd.min.js"></script>
+
+    <!-- masonry -->
+    <script src="plugins/gridgallery/js/masonry.pkgd.min.js"></script>
+
+    <!-- gridgallery classie -->
+    <script src="plugins/gridgallery/js/classie.js"></script>
+
+    <!-- cbpgridgallery -->
+    <script src="plugins/gridgallery/js/cbpgridgallery.js"></script>
+
+    <!-- gallery -->
+    <script src="js/pages/gallery.js"></script>
+
+    <!-- theme core scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+
+    <!-- all js include end -->
+
+</body>
+
+</html>

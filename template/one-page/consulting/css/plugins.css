@@ -1,0 +1,26 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Consulting Template
+    Description: Onepage Consulting Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("../../../css/plugins/bootstrap.min.css");
+
+/* == animate Headline == */
+@import url("../../../css/plugins/animate.css");
+
+/* == fontawesome icon font == */
+@import url("../../../css/plugins/fontawesome-all.min.css");
+
+/* == owl.carousel == */
+@import url("../../../css/plugins/owl.carousel.css");
+
+/* == helper classes == */
+@import url("../../../css/plugins/default.css");

@@ -38,7 +38,19 @@
     "use strict";
 
     var $window = $(window);
-
+    $( "#container-hidden-index" ).slideToggle( "slow" );
+    $( "#container-hidden-index-2" ).slideToggle( "slow" );
+    $( "#container-hidden-index-3" ).slideToggle( "slow" );
+  /*------------------------------------
+            XXX mehr lesen button
+        --------------------------------------*/
+        $('#mehrlesen-index').click(function() {
+          
+            $( "#container-hidden-index" ).slideToggle( "slow" );
+            $( "#container-hidden-index-2" ).slideToggle( "slow" );
+            $( "#container-hidden-index-3" ).slideToggle( "slow" );
+           
+        });
         /*------------------------------------
             01. Preloader
         --------------------------------------*/
@@ -56,6 +68,7 @@
             }
             
           });
+ 
         /*------------------------------------
             02. Sticky Header
         --------------------------------------*/

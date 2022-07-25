@@ -1,0 +1,762 @@
+[
+ {
+  "ID": 1,
+  "German": "Unternehmen",
+  "English": "Company"
+ },
+ {
+  "ID": 2,
+  "German": "Leitdbild",
+  "English": "Image"
+ },
+ {
+  "ID": 3,
+  "German": "Mission und Vision",
+  "English": "Misson and Vision"
+ },
+ {
+  "ID": 4,
+  "German": "Hintergrund",
+  "English": "Background"
+ },
+ {
+  "ID": 5,
+  "German": "Green IT",
+  "English": "Green IT"
+ },
+ {
+  "ID": 6,
+  "German": "Dienstleistungen",
+  "English": "Services"
+ },
+ {
+  "ID": 7,
+  "German": "Entsorgung",
+  "English":  "Recycling"
+ },
+ {
+  "ID": 8,
+  "German": "Remarketing",
+  "English":  "Remarketing"
+ },
+ {
+  "ID": 9,
+  "German": "IT Ankauf",
+  "English":  "IT Buying"
+ },
+ {
+  "ID": 10,
+  "German": "Englisch",
+  "English":  "English"
+ },
+ {
+  "ID": 11,
+  "German": "Deutsch",
+  "English":  "German"
+ },
+ {
+  "ID": "index.html",
+  "German": null,
+  "English": null
+ },
+ {
+  "ID": 12,
+  "German": "Titel 1",
+  "English": null
+ },
+ {
+  "ID": 13,
+  "German": "Titel 2",
+  "English": null
+ },
+ {
+  "ID": 14,
+  "German": "Titel 3",
+  "English": null
+ },
+ {
+  "ID": 15,
+  "German": "Titel 4",
+  "English": null
+ },
+ {
+  "ID": 16,
+  "German": "Über  Eco-Remarketing",
+  "English": null
+ },
+ {
+  "ID": 17,
+  "German": "Zertifizierter Entsorgungsfachbetrieb & Remarketing-Experte",
+  "English": null
+ },
+ {
+  "ID": 18,
+  "German": "Ihr Vorteil",
+  "English": null
+ },
+ {
+  "ID": 19,
+  "German": "ECO remarketing ist Ihr zertifizierter Entsorgungsfachbetrieb für IT und TK Komponenten. Wir sind zertifizierter Partner für private und geschäftliche Entsorgung und Recycling von EDV \/IT \/ITK Altgeräten. Zusätzlich zählt IT Remarketing auch zu der Green IT, die sich komplett um die Energieeffiziente Nutzung von Hightech Geräten und Systemen beschäftigt. Unter anderem umfasst unser Arbeitsbereich den Ankauf, Wiederverwertung und Vermarktung von IT \/TK Komponenten, sowie Altgeräten als Erstbehandler . Unser junges und dynamisches Team berät sie gerne und unterstützen sie von der Abholung bis zur Zahlung. ",
+  "English": null
+ },
+ {
+  "ID": 20,
+  "German": "Unser Service ist nicht nur eine bequeme Methode für Sie Ihre Altgeräte ordnungsgemäß zu entsorgen. Durch unsere umweltschonende Prozesse leisten Sie einen direkten Beitrag zu einer grüneren Zukunft.",
+  "English": null
+ },
+ {
+  "ID": 21,
+  "German": "Wiederverwendung und Vermarktung",
+  "English": null
+ },
+ {
+  "ID": 22,
+  "German": "Unsere Spezialisierung liegt bei gebrauchten:",
+  "English": null
+ },
+ {
+  "ID": 23,
+  "German": "Computer, Comupterzubehör und Teile",
+  "English": null
+ },
+ {
+  "ID": 24,
+  "German": "Monitore und Panel",
+  "English": null
+ },
+ {
+  "ID": 25,
+  "German": "Telekommunikationsgeräte",
+  "English": null
+ },
+ {
+  "ID": 26,
+  "German": "Jegliche E-Industrieabfälle",
+  "English": null
+ },
+ {
+  "ID": 27,
+  "German": "Netzwerksgeräte",
+  "English": null
+ },
+ {
+  "ID": 28,
+  "German": "Im Bereich der Wiederverwendung, des Recyclings und des Remarketings konnten wir bereits in diesem Jahr folgende Erfolge erzählen:",
+  "English": null
+ },
+ {
+  "ID": 29,
+  "German": "WIEDERVERWERTUNGEN ",
+  "English": null
+ },
+ {
+  "ID": 30,
+  "German": "TONEN RECYCELTE",
+  "English": null
+ },
+ {
+  "ID": 31,
+  "German": "ZUFRIEDENE GESCHÄFTSPARTNERN",
+  "English": null
+ },
+ {
+  "ID": 32,
+  "German": "Möchten Sie uns Ihre Altgeräte verkaufen? ",
+  "English": null
+ },
+ {
+  "ID": 33,
+  "German": "Benötigen Sie Unterstützung beim Transport von Geräten oder Komponenten?",
+  "English": null
+ },
+ {
+  "ID": 34,
+  "German": "Möchten Sie IT oder TK Komponenten in großer Menge erwerben?",
+  "English": null
+ },
+ {
+  "ID": 35,
+  "German": "Nehmen Sie mit uns Kontak auf",
+  "English": null
+ },
+ {
+  "ID": "leitbild.html",
+  "German": null,
+  "English": null
+ },
+ {
+  "ID": 36,
+  "German": "Unsere Ziele erreichen wir gemeinsam",
+  "English": null
+ },
+ {
+  "ID": 37,
+  "German": "Unsere Ziele erreichen wir gemeinsam, dabei handelt und richtet sich die ECO Remarketing GmbH nach der Wertschätzung von Mensch und Natur. Dabei ist uns immer die Kundenzufriedenheit und eine gesunde Win Win Philosophy wichtig, sowie Vertrags -, Termin und Preistreue. Die Quelle unseres Erfolgs sind unsere Mitarbeiter.",
+  "English": null
+ },
+ {
+  "ID": 38,
+  "German": "Kundenzufriedenheit",
+  "English": null
+ },
+ {
+  "ID": 39,
+  "German": "Die Zufriedenheit der Kunden ist der Mittelpunkt unseres Handelns. Dabei liegen uns Partnerschaft, Verlässlichkeit, Fairness und Vertrauen als Erfolgsfaktoren besonders am Herzen.",
+  "English": null
+ },
+ {
+  "ID": 40,
+  "German": "Win Win Philosophie",
+  "English": null
+ },
+ {
+  "ID": 41,
+  "German": "Langfristige und nachhaltige Geschäftsbeziehungen sind ein wichtiges Ziel. Unsere Vertragsverhandlungen gestalten wir nach dem Prinzip, das beiden Geschäftspartnern den größten Nutzen ermöglicht.",
+  "English": null
+ },
+ {
+  "ID": 42,
+  "German": "Vertrags -, Termin und Preistreue",
+  "English": null
+ },
+ {
+  "ID": 43,
+  "German": "Zu unserem Qualitätsmanagement gehören selbstverständlich Vertragstreue, das Einhalten von Terminen sowie die Preistreue.",
+  "English": null
+ },
+ {
+  "ID": 44,
+  "German": "Mitarbeiterinnen und Mitarbeiter",
+  "English": null
+ },
+ {
+  "ID": 45,
+  "German": "Neben dem Grundsatz des ressourcenschonenden Umgangs mit unserer Umwelt nimmt auch die Mitarbeitermotivation einen hohen Stellenwert ein.",
+  "English": null
+ },
+ {
+  "ID": 46,
+  "German": "missionandvision.html",
+  "English": null
+ },
+ {
+  "ID": null,
+  "German": "Mission",
+  "English": null
+ },
+ {
+  "ID": 47,
+  "German": "ECO Remarketing GmbH steht für Umweltschutz und Erhalt der Ressourcen unserer Erde. Der Klima und Umweltschutz ist längst zur globalen Aufgabe geworden. Wir nehmen diese Aufgabe sehr ernst und tragen dazu bei, dass IT Schrott nicht in Mülldeponien gelangt sondern in einen umweltschonenden Recycling Kreislauf zurückgeführt wird: Because it’s our Environment.",
+  "English": null
+ },
+ {
+  "ID": 48,
+  "German": "Vision",
+  "English": null
+ },
+ {
+  "ID": 49,
+  "German": "ECO Remarketing GmbH steht für Umweltschutz und Erhalt der Ressourcen unserer Erde. Der Klima und Umweltschutz ist längst zur globalen Aufgabe geworden. Wir nehmen diese Aufgabe sehr ernst und tragen dazu bei, dass IT Schrott nicht in Mülldeponien gelangt sondern in einen umweltschonenden Recycling Kreislauf zurückgeführt wird: Because it’s our Environment.",
+  "English": null
+ },
+ {
+  "ID": null,
+  "German": "hintergrund.html",
+  "English": null
+ },
+ {
+  "ID": 50,
+  "German": "Heutzutage ist IT Entsorgung und Recycling wichtiger denn je",
+  "English": null
+ },
+ {
+  "ID": 51,
+  "German": "Elektronische Artikel haben einen gewissen Standard erreicht. Selbst ältere Geräte sind für den alltäglich privaten, wie auch geschäftlichen Gebrauch vollkommen ausreichend. Dennoch werden immer wieder neue IT Geräte gekauft. Bei Unternehmen gibt es zum Teil sogar interne Richtlinien, nach wie vielen Jahren Geräte erneuert werden müssen. Dadurch kommt es zu einer großen Menge an Altgeräten, die eigentlich noch vollkommen funktionstüchtig sind.",
+  "English": null
+ },
+ {
+  "ID": 54,
+  "German": "Energieverbrauch eines IT-Geräts",
+  "English": null
+ },
+ {
+  "ID": 55,
+  "German": "Insgesamt 60 % des gesamten Energieverbrauches eines IT Gerätes liegt in der Produktion und Logistik und lediglich 40 % Energiekosten innerhalb der Nutzungsdauer verbraucht werden.",
+  "English": null
+ },
+ {
+  "ID": 56,
+  "German": "Die Wahrheit ist",
+  "English": null
+ },
+ {
+  "ID": 57,
+  "German": "laut E-Waste Statistiken",
+  "English": null
+ },
+ {
+  "ID": 58,
+  "German": "Weltweit",
+  "English": null
+ },
+ {
+  "ID": 59,
+  "German": "fallen mehr als 40 Millionen Tonnen Elektroschrott an. Ein großer Teil davon ist noch funktionstüchtig oder kann aufbereitet werden.",
+  "English": null
+ },
+ {
+  "ID": 60,
+  "German": "In Deutschland",
+  "English": null
+ },
+ {
+  "ID": 61,
+  "German": "fallen über 20 Kg IT Schrott pro Person an und lediglich 20 % der IT Altgeräte werden ordnungsgemäß eingesammelt und entsorgt bzw. recycelt.",
+  "English": null
+ },
+ {
+  "ID": 62,
+  "German": "Ressourcen sparen",
+  "English": null
+ },
+ {
+  "ID": 63,
+  "German": "In einer Tonne Leiterplatten steckt 30- bis 40-mal mehr Kupfer als aus einer Tonne Erz abgebaut werden kann.",
+  "English": null
+ },
+ {
+  "ID": "greenIT.html",
+  "German": null,
+  "English": null
+ },
+ {
+  "ID": 64,
+  "German": "Wir sind Teil der Green IT",
+  "English": null
+ },
+ {
+  "ID": 65,
+  "German": "Unter Green IT versteht man die ressourcenschonende Nutzung von Geräten im Bereich der Informations und Kommunikationstechnologie (KIT) über den kompletten Lifecycle hinweg. Das bedeutet, dass es mit einer ressourcenschonenden Produktion anfängt und bis zum Ende mit einer umweltschonenden Entsorgung bzw. einem Recycling aufhört. IT Remarketing ist dabei eine Möglichkeit wertvolle Ressourcen zu sparen, die bei der Produktion anfallen würden und dafür bereits existierende Produkte zu restaurieren und dem Markt wieder zuzuführen.",
+  "English": null
+ },
+ {
+  "ID": 66,
+  "German": "Neues Leben erschaffen",
+  "English": null
+ },
+ {
+  "ID": 67,
+  "German": "Reduktion",
+  "English": null
+ },
+ {
+  "ID": 68,
+  "German": "Energieverbrauch",
+  "English": null
+ },
+ {
+  "ID": 69,
+  "German": "Reduktion des Energieverbrauchs in der Produktion und Nutzung von IT Geräten, mit einer Einsparung von 31500 Megawatt was einem Verbrauch von 15.750 Zweipersonenhaushalten entsprechen würde.",
+  "English": null
+ },
+ {
+  "ID": 70,
+  "German": "Minimierung",
+  "English": null
+ },
+ {
+  "ID": 71,
+  "German": "Schadstoffe",
+  "English": null
+ },
+ {
+  "ID": 72,
+  "German": "Minimierung von Schadstoffen die während der Herstellung anfallen. Laut dem Bundesumweltministerium erzeugt der IT Betrieb genauso viele Schadstoffe wie der Flugverkehr. Weiterhin werden für einen Laptop circa 1500 Liter Wasser und 1,9 Tonne Rohstoffe benötigt.",
+  "English": null
+ },
+ {
+  "ID": 73,
+  "German": "Schonung",
+  "English": null
+ },
+ {
+  "ID": 74,
+  "German": "Ressourcen",
+  "English": null
+ },
+ {
+  "ID": 75,
+  "German": "Wir bereiten Altgeräte durch unsere Spezialisten auf, bereinigen und verkaufen diese nach den aktuellen Datenschutzrichtlinien. Mit der Wiederverwendung von IT Altgeräten tragen wir gemeinsam maßgeblich zur Vermeidung von Müll an und schonen dabei die Primärressourcen..",
+  "English": null
+ },
+ {
+  "ID": null,
+  "German": "dienstlleistungen.html",
+  "English": null
+ },
+ {
+  "ID": 76,
+  "German": "Was wir machen",
+  "English": null
+ },
+ {
+  "ID": 77,
+  "German": "Als jahrelang bewährter und zertifizierter Entsorgungsfachbetrieb für IT und TK Komponenten, sind wir ihr Ansprechpartner für Recycling, Re-Marketing und IT-Ankauf. Dadurch, dass wir eine hohe Expertise in allen drei Bereichen mitbringen, haben sie mit uns einen Partner gefunden, der ihren Elektroschrott direkt bei Ihnen abholt und die bestmögliche Weiterverwendung und Verarbeitung mit dem höchsten Profit für sie umsetzt.",
+  "English": null
+ },
+ {
+  "ID": 78,
+  "German": "Unsere Dienstleistungen in Kürze",
+  "English": null
+ },
+ {
+  "ID": 79,
+  "German": "Entsorgung",
+  "English": null
+ },
+ {
+  "ID": 80,
+  "German": "Als zertifizierter Entsorgungsfachbetrieb liegt eine unserer Kernkompetenzen in der IT Entsorgung bzw. dem Recycling von alten, nicht mehr funktionsfähigen IT Geräten und Komponenten. Das Endprodukt sind die Ursprungsrohstoffe zur weiteren Nutzung.",
+  "English": null
+ },
+ {
+  "ID": 81,
+  "German": "Remarketing",
+  "English": null
+ },
+ {
+  "ID": 82,
+  "German": "IT Remarketing beschreibt im allgemeinen die Wiederverwendung von gebrauchten IT Altgeräten. Aufgrund des hohen Leistungsstandards von EDV -\/IT -\/ITK Altgeräten sind selbst ältere und gebrauchte Modelle immer noch funktionstüchtig und können alltägliche Aufgaben bewältigen.",
+  "English": null
+ },
+ {
+  "ID": 83,
+  "German": "IT Ankauf",
+  "English": null
+ },
+ {
+  "ID": 84,
+  "German": "Wir erstellen Ihnen schnell ein unverbindliches Angebot unter Berücksichtigung sämtlicher Aspekte wie Logistik und Datensicherheit. Als Remarketing und Recycling Unternehmen bieten wir Ihnen zudem den kompletten Service aus einer Hand. ",
+  "English": null
+ },
+ {
+  "ID": "entsorgung.html",
+  "German": null,
+  "English": null
+ },
+ {
+  "ID": 85,
+  "German": "Entsorgung von EDV -\/IT -\/ITK Altgeräten",
+  "English": null
+ },
+ {
+  "ID": 86,
+  "German": "Als zertifizierter Entsorgungsfachbetrieb liegt eine unserer Kernkompetenzen in der IT Entsorgung bzw. dem Recycling von alten, nicht mehr funktionsfähigen IT Geräten und Komponenten. Das Endprodukt sind die Ursprungsrohstoffe zur weiteren Nutzung. Die umweltverträgliche Entsorgung von Elektro und Elektronik Altgeräten begann für uns schon immer im ersten Schritt mit der Vermeidung von Abfall. Eine entsprechende Änderung des ElektroG im Jahr 2013 durch den Gesetzgeber haben wir daher sehr begrüßt.",
+  "English": null
+ },
+ {
+  "ID": 87,
+  "German": "Wir setzen die Vermeidung von Abfall täglich durch verschiedene Prozesse um und profitieren hier von unserer langjährigen Erfahrung.",
+  "English": null
+ },
+ {
+  "ID": 88,
+  "German": "Entsorgungsdienstleistungen",
+  "English": null
+ },
+ {
+  "ID": 89,
+  "German": "Fachliche Entsorgung",
+  "English": null
+ },
+ {
+  "ID": 90,
+  "German": "EDV -\/ IT -\/ und Computer Schrott",
+  "English": null
+ },
+ {
+  "ID": 91,
+  "German": "Dabei sind wir spezialisiert auf die fachliche Entsorgung von EDV -\/ IT -\/ und Computer Schrott",
+  "English": null
+ },
+ {
+  "ID": 92,
+  "German": "Datenshutz",
+  "English": null
+ },
+ {
+  "ID": 93,
+  "German": "Vernichtung von Datenträgern",
+  "English": null
+ },
+ {
+  "ID": 94,
+  "German": "Wir legen einen hohen Stellenwert auf die saubere, umweltfreundliche Entsorgung von Altgeräten und einen hohen Datenschutz bei gebrauchten Datenträgern. Eco Remarketing achtet bei der Vernichtung von Datenträgern auf die Richtlinien des Bundesamtes für Informationstechnik (BSI) und nutzen speziell dafür entwickelte Verfahren wie VSITS.",
+  "English": null
+ },
+ {
+  "ID": 95,
+  "German": "Mechanische Zerstörung",
+  "English": null
+ },
+ {
+  "ID": 96,
+  "German": "Älteren EDV und IT Geräten",
+  "English": null
+ },
+ {
+  "ID": 97,
+  "German": "Auch die mechanische Zerstörung von älteren EDV und IT Geräten fällt in unser Fachgebiet. Unser Service ist für Sie kostenlos . Wir holen Ihre alten Geräte wie zum Beispiel Computer, PCs, Server, Handys, Smartphones, Mobiltelefone, Kabel, Hardware, Fernseher und vieles mehr ab. Gerne können Sie diese auch zu uns schicken. Eine Ausnahme im Recycling von Elektronik Artikeln sind die Röhrenfernseher. Diese müssen komplett verschrottet werden, da diese nicht mehr recycelt werden können.",
+  "English": null
+ },
+ {
+  "ID": 98,
+  "German": "Beratung",
+  "English": null
+ },
+ {
+  "ID": 99,
+  "German": "schnelle IT Entsorgung und Recycling",
+  "English": null
+ },
+ {
+  "ID": 100,
+  "German": "Wir sind Ihr passender Ansprechpartner für umweltfreundliche, schnelle IT Entsorgung und Recycling. Wir sind deutschlandweit für Sie unterwegs und erreichbar. Dank unseres Services können Sie ohne Bedenken neue Elektroartikel kaufen und Ihre Altgeräte an uns zur passenden Entsorgung weitergeben.",
+  "English": null
+ },
+ {
+  "ID": "remarketing.html",
+  "German": null,
+  "English": null
+ },
+ {
+  "ID": 101,
+  "German": "Wir können wir Ihnen helfen?",
+  "English": null
+ },
+ {
+  "ID": 102,
+  "German": "Lassen Sie uns kurz sprechen!!",
+  "English": null
+ },
+ {
+  "ID": 103,
+  "German": "(+49) 1521 5142199",
+  "English": null
+ },
+ {
+  "ID": 104,
+  "German": "info@eco-remarketing.com",
+  "English": null
+ },
+ {
+  "ID": 105,
+  "German": "Remarketing",
+  "English": null
+ },
+ {
+  "ID": 106,
+  "German": "IT Remarketing beschreibt im allgemeinen die Wiederverwendung von gebrauchten IT Altgeräten. Aufgrund des hohen Leistungsstandards von EDV -\/IT -\/ITK Altgeräten sind selbst ältere und gebrauchte Modelle immer noch funktionstüchtig und können alltägliche Aufgaben bewältigen.",
+  "English": null
+ },
+ {
+  "ID": 107,
+  "German": "ECO Remarketing Prozess",
+  "English": null
+ },
+ {
+  "ID": 108,
+  "German": "Unser höchstes Ziel ist es den Remarketing-Prozess so einfach wie möglich für sie zu gestalten. Dabei legen wir den Fokus darauf den Geräten ein zweites Leben zu geben, bei größter Sorgfalt zur Datensicherheit und stets unter berücksichtigung unserer Win-Win-Strategie. YOU, WE and the Enviroment",
+  "English": null
+ },
+ {
+  "ID": 109,
+  "German": "Einkauf",
+  "English": null
+ },
+ {
+  "ID": 110,
+  "German": "Logistik",
+  "English": null
+ },
+ {
+  "ID": 111,
+  "German": "Refurbish",
+  "English": null
+ },
+ {
+  "ID": 112,
+  "German": "Wiedervermarktung",
+  "English": null
+ },
+ {
+  "ID": 113,
+  "German": "Im Detail",
+  "English": null
+ },
+ {
+  "ID": 114,
+  "German": "Einkauf",
+  "English": null
+ },
+ {
+  "ID": 115,
+  "German": "Mit IT Remarketing bezeichnen wir den Verkauf eines gebrauchten Geräts, welches vorher durch unsere Spezialisten optisch und technisch wiederaufbereitet wurde. Die gebrauchten Geräte werden von unseren Einkäufern weltweit eingekauft. Wir kaufen direkt von Unternehmen, die aufgrund von Hardwareumstellungen ihre alten Geräte verkaufen möchten. Andere Bezugsquellen sind Leasingrückläufer von Leasing Firmen, Überproduktionen direkt vom Hersteller oder Restposten.",
+  "English": null
+ },
+ {
+  "ID": 116,
+  "German": "Nachhaltigkeit",
+  "English": null
+ },
+ {
+  "ID": 117,
+  "German": "Bei unseren Remarketing Produkten handelt es sich daher ausschließlich um hochwertige Geräte die für den Business Bereich produziert und verkauft wurden. Mit dem Kauf eines gebrauchten Geräts schonen Sie nicht nur Ihren Geldbeutel, sondern auch die Umwelt. Denn es werden keine Rohstoffe wie Wasser, Kupfer, Gold oder Neodym für die Herstellung eines neuen Produktes verwendet. Sie erhalten dennoch ein qualitativ hochwertiges Produkt, welches für den täglichen Einsatz in professionellen Arbeitsumgebungen entwickelt wurde.",
+  "English": null
+ },
+ {
+  "ID": 118,
+  "German": "Refurbishing",
+  "English": null
+ },
+ {
+  "ID": 119,
+  "German": "Mit unserem IT Remarketing Service bereiten wir Altgeräte durch unsere Spezialisten auf, bereinigen und verkaufen diese nach den aktuellen Datenschutzrichtlinien. Bei der Löschung von alten Daten, zum Beispiel auf einer Festplatte, ist essenziell, dass die Daten komplett gelöscht und überschrieben werden und auch nicht mehr durch spezielle Software rekonstruiert werden können. Hierbei ist nicht die Anzahl der Löschungsversuche entscheidend, sondern um welche Art von Datenträger es sich handelt und wo Daten sich noch versteckt aufhalten können. Dabei setzen wir besonders auf EDV -\/IT -\/ITK Geräte von Unternehmen, Banken, Versicherungen etc., da diese einen hohen Leistungsstandard besitzen und optimal für das IT Remarketing geeignet sind.",
+  "English": null
+ },
+ {
+  "ID": 120,
+  "German": "Green-IT",
+  "English": null
+ },
+ {
+  "ID": 121,
+  "German": "Mit der Wiederverwendung von IT Altgeräten tragen wir gemeinsam maßgeblich zur Vermeidung von Müll bei und schonen dabei die Primärressourcen. Deshalb zählt IT Remarketing auch zu der Green IT, die sich komplett um die Energieeffiziente Nutzung von Hightech Geräten und Systemen beschäftigt.",
+  "English": null
+ },
+ {
+  "ID": "ankauf.html",
+  "German": null,
+  "English": null
+ },
+ {
+  "ID": 122,
+  "German": "Wir können wir Ihnen helfen?",
+  "English": null
+ },
+ {
+  "ID": 123,
+  "German": "Lassen Sie uns kurz sprechen!!",
+  "English": null
+ },
+ {
+  "ID": 124,
+  "German": "(+49) 1521 5142199",
+  "English": null
+ },
+ {
+  "ID": 125,
+  "German": "info@eco-remarketing.com",
+  "English": null
+ },
+ {
+  "ID": 126,
+  "German": "Dieses Angebot richtet sich speziell an Unternehmen oder Behörden:",
+  "English": null
+ },
+ {
+  "ID": 127,
+  "German": "Wir erstellen Ihnen schnell ein unverbindliches Angebot unter Berücksichtigung sämtlicher Aspekte wie Logistik und Datensicherheit. Als Remarketing und Recycling Unternehmen bieten wir Ihnen zudem den kompletten Service aus einer Hand. Wir können daher konkurrenzfähige Preise, insbesondere auch für defekte Geräte anbieten und müssen uns nicht erst von einem dritten ein Angebot einholen . Sie erhalten die bestmögliche Kondition aufgrund unserer jahrelangen Erfahrung.",
+  "English": null
+ },
+ {
+  "ID": 128,
+  "German": "Datenschutz liegt im Mittelpunkt",
+  "English": null
+ },
+ {
+  "ID": 129,
+  "German": "Auch die Sicherheit Ihrer Daten ist unser Thema. Wir wissen, dass es nicht mit einer einfachen Löschung der Daten getan ist, denn mit spezieller Software kann man selbst gelöschte Daten noch rekonstruieren. Auch die Anzahl der Löschversuche ist nicht entscheidend. Wir von ECO Remarketing sind uns bewusst, dass die richtige Löschart nach der Art des Datenträgers entscheidend ist. Wir arbeiten nach den internationalen Standards und bieten Ihnen höchstmögliche Sicherheit an. Sollten sich in Ihren Altgeräten noch Datenträger befinden, bieten wir Ihnen zwei Verfahren an.",
+  "English": null
+ },
+ {
+  "ID": 130,
+  "German": "Datenvernichtungsmethoden",
+  "English": null
+ },
+ {
+  "ID": 131,
+  "German": "Datenlöschung",
+  "English": null
+ },
+ {
+  "ID": 132,
+  "German": "Wir können Ihre Daten zertifiziert und manipulationssicher löschen. Wir verwenden dazu ein Löschverfahren des amerikanischen Verteidigungsministeriums (Standard DoD 5220.22 M), welches sich als Industriestandard durchgesetzt hat. Wählen Sie diese Methode, können wir anschließend Ihre Datenträger verkaufen und Sie profitieren vom Verkaufserlös!",
+  "English": null
+ },
+ {
+  "ID": 133,
+  "German": "Datenträgervernichtung",
+  "English": null
+ },
+ {
+  "ID": 134,
+  "German": "Die zweite Methode die wir anbieten ist die physikalische Zerstörung der Datenträger. Dabei werden die Datenträger geschreddert und somit unwiderruflich zerstört. Hier wird keine Wiedervermarktung betrieben, als Recycling Unternehmen sind wir dennoch in der Lage den Materialwert der Datenträger zu vergüten.",
+  "English": null
+ },
+ {
+  "ID": 135,
+  "German": "Neues Leben",
+  "English": null
+ },
+ {
+  "ID": 136,
+  "German": "Nach der Löschung der Daten können wir Ihre Altgeräte Verkaufen und händigen Ihnen einen Teil der Verkaufserlöse aus. Die andere Option ist die IT Entsorgung, bei der wir Altgeräte komplett zerschreddern und Ihnen die Materialkosten erstatten. Dabei arbeiten wir nach den Green IT Richtlinien mit denen wir einen wichtigen Beitrag zu einer fachgerechten und umweltbewussten Entsorgung von EDV --\/IT --\/ITK Geräten",
+  "English": null
+ },
+ {
+  "ID": 137,
+  "German": "IHR VORTEIL",
+  "English": null
+ },
+ {
+  "ID": 138,
+  "German": "Machen Sie Ihre Second Hand IT Artikel zu Geld. Wir sind Ihr zuverlässiger und zertifizierter Partner, wenn es um die korrekte Entsorgung und Wiederverwertung von EDV Geräten geht. Lassen Sie uns einfach eine Nachricht zukommen oder rufen Sie uns an und wir schicken Ihnen innerhalb kürzester Zeit ein Angebot für Ihre nicht mehr gebrauchten IT Altgeräte zu. Wir freuen uns von Ihnen zu hören",
+  "English": null
+ },
+ {
+  "ID": "contact.html",
+  "German": null,
+  "English": null
+ },
+ {
+  "ID": 139,
+  "German": "Sie können uns gern jederzeit kontaktieren",
+  "English": null
+ },
+ {
+  "ID": 140,
+  "German": "TELEFON",
+  "English": null
+ },
+ {
+  "ID": 141,
+  "German": "ADRESSE",
+  "English": null
+ },
+ {
+  "ID": 142,
+  "German": "EMAIL",
+  "English": null
+ },
+ {
+  "ID": 143,
+  "German": "Kontaktformular",
+  "English": null
+ },
+ {
+  "ID": 144,
+  "German": "SENDEN",
+  "English": null
+ }
+]

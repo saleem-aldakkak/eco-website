@@ -55,11 +55,6 @@
   "English":  "German"
  },
  {
-  "ID": "index.html",
-  "German": null,
-  "English": null
- },
- {
   "ID": 12,
   "German": "Titel 1",
   "English": null
@@ -758,5 +753,10 @@
   "ID": 144,
   "German": "SENDEN",
   "English": null
- }
+ },
+ {
+    "ID": 145,
+    "German": "Kontakt",
+    "English": "Contact us"
+   },
 ]

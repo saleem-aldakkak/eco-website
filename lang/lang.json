@@ -1,0 +1,11 @@
+{
+   "en":{
+     "langid":10,
+     "img":"img/flags/united-kingdom.png"
+ 
+   },
+   "de":{
+       "langid":11,
+     "img":"img/flags/german.png"
+   }
+ }

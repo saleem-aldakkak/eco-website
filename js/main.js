@@ -1834,7 +1834,7 @@
                     countdown(".countdown");
                 } else {
                     countdown = tpj(".countdown").show().countdown({
-                        date: "01 Nov 2024 00:01:00", //set your date and time. EX: 15 May 2014 12:00:00
+                        date: "02 Aug 2022 00:00:00", //set your date and time. EX: 15 May 2014 12:00:00
                         format: "on"
                     });
                 }

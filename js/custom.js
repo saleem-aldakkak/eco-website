@@ -93,10 +93,10 @@ fetch("lang/de-en.json")
 
         switch(lang){
             case "en":
-                $('*[langid="'+result[i].ID+'"]').text(result[i].English);
+                $('*[langid="'+result[i].ID+'"]').html(result[i].English);
                 break;
                 case "de":
-                    $('*[langid="'+result[i].ID+'"]').text(result[i].German);
+                    $('*[langid="'+result[i].ID+'"]').html(result[i].German);
                 break;
             default:
               break;

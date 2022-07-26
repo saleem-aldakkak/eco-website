@@ -45,9 +45,9 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 let lang = params.lang; // "some_value"
 
 if($.cookie('lang')==undefined){
-  lang=cookie('lang');
+  lang=$.cookie('lang');
 }else{
-  cookie('lang','en');
+  $.cookie('lang','en');
 }
 if(lang!=null){
 // Get Languages

@@ -35,7 +35,6 @@ $( "header li" ).click(function() {
 
 
 
-
 //Read Query
 const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
@@ -43,7 +42,18 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 
 // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
 let lang = params.lang; // "some_value"
-
+if(lang==null){
+  lang ='en';
+}
+$( "header a" ).each(function( index ) {
+  var href = $( this ).attr('href');
+  if(!href.includes('lang')){
+    $( this ).attr('href',href+'?lang='+lang);
+  }
+ 
+  //console.log( index + ": " + $( this ).text() );
+  
+});
 
 // Get Languages
 fetch("lang/lang.json")
@@ -53,6 +63,7 @@ fetch("lang/lang.json")
 .then(function(result) {
   //Reorder lang buttons
   $('#selected-lang').attr('href','?lang='+lang);
+
   $('#selected-lang').html('<img class="lang-img" src="'+result[lang]['img']+'"/><span langid="'+result[lang]['langid']+'"></span>');
   $('#hidden-langs').html("");
    for(let i in result){

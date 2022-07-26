@@ -51,7 +51,7 @@ $( "header a" ).each(function( index ) {
     $( this ).attr('href',href+'?lang='+lang);
   }
  
-  //console.log( index + ": " + $( this ).text() );
+
   
 });
 

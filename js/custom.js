@@ -45,7 +45,7 @@ let lang = params.lang; // "some_value"
 if(lang==null){
   lang ='en';
 }
-$( "header a" ).each(function( index ) {
+$( "a" ).each(function( index ) {
   var href = $( this ).attr('href');
   if(!href.includes('lang')){
     $( this ).attr('href',href+'?lang='+lang);

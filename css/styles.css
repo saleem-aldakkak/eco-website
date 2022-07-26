@@ -37,7 +37,7 @@
     26. Contact info
     27. Footer
     28. Copy Elements
-    
+    29.Custom
 ---------------------------------- */
 /* ===================================
     Common styles
@@ -12323,6 +12323,24 @@ pre[class*="language-"] {
   .scroll-to-top:visited {
     color: #282b2d;
     text-decoration: none; }
+
+
+
+
+
+
+
+
+/* ===================================
+    Custom
+====================================== */
+
+
+.lang-img{
+      width: 20px;
+      height:20px;
+      margin:2px 5px 0 0;
+    }
 
 /*# sourceMappingURL=styles.css.map */
 

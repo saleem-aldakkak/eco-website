@@ -120,9 +120,18 @@
                                                 <li><a langid="9" href="ankauf.html">IT-Ankauf</a></li>
                                             </ul>
                                         </li>
-                                        <li><a id="en-btn"><img style="width: 20px;height:20px;margin:2px 5px 0 0" src="img/flags/united-kingdom.png"><span langid="10">Englisch</span></a>
-                                            <ul>
-                                                <li><a id="de-btn"><img style="width: 20px;height:20px;margin:2px 5px 0 0" src="img/flags/german.png"><span langid="11">Deutsch</span></a></li>
+                                        <li>
+                                            <a id="selected-lang" href="?lang=en">
+                                                <img class="lang-img" src="img/flags/united-kingdom.png">
+                                                <span langid="10">Englisch</span>
+                                            </a>
+                                            <ul id="hidden-langs">
+                                                <li>
+                                                    <a href="?lang=de">
+                                                    <img class="lang-img" src="img/flags/german.png">
+                                                    <span langid="11">Deutsch</span>
+                                                    </a>
+                                                </li>
                                                 
                                             </ul>
                                         </li>
@@ -134,35 +143,7 @@
                                     <!-- start attribute navigation -->
                                     <div class="attr-nav align-items-lg-center ms-lg-auto main-font">
                                         <ul>
-                                            <!-- <li class="dropdown me-3 me-lg-0">
-                                                <a href="#" class="dropdown-toggle"  id="dropdownMenuLink" data-bs-toggle="dropdown">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                    <span class="badge bg-primary">3</span>
-                                                </a>
-                                                <ul class="dropdown-menu cart-list">
-                                                    <li>
-                                                        <a href="#!" class="photo"><img src="img/shop/cart-thumb01.jpg" class="cart-thumb" alt="..."></a>
-                                                        <h6><a href="#!">Sneakers Shoe </a></h6>
-                                                        <p>2x - <span class="price">$99.99</span></p>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#!" class="photo"><img src="img/shop/cart-thumb02.jpg" class="cart-thumb" alt="..."></a>
-                                                        <h6><a href="#!">Digital Watch</a></h6>
-                                                        <p>1x - <span class="price">$33.33</span></p>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#!" class="photo"><img src="img/shop/cart-thumb03.jpg" class="cart-thumb" alt="..."></a>
-                                                        <h6><a href="#!">Headphones</a></h6>
-                                                        <p>2x - <span class="price">$99.99</span></p>
-                                                    </li>
-                                                    <li class="total bg-primary">
-                                                        <span class="pull-left"><strong>Total</strong>: $233.31</span>
-                                                        <a href="#!" class="butn small btn-cart white"><span>View Cart</span></a>
-                                                    </li>
-                                                </ul>
-                                            </li> -->
-                                            
-                                            <li class="d-none d-xl-inline-block"><a href="contact.html" class="butn primary medium white-hover"><span>Kontakt</span></a></li>
+                                            <li class="d-none d-xl-inline-block"><a href="contact.html" class="butn primary medium white-hover"><span langid="145">Kontakt</span></a></li>
                                         </ul>
                                     </div>
                                     <!-- end attribute navigation -->
@@ -455,7 +436,7 @@
 
     </div>
 
-    <!-- SCROLL TO TOP
+       <!-- SCROLL TO TOP
     ================================================== -->
     <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
 

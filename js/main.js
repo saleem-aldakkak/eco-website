@@ -38,6 +38,8 @@
     "use strict";
 
     var $window = $(window);
+
+
  
         /*------------------------------------
             01. Preloader
@@ -46,16 +48,7 @@
         $('#preloader').fadeOut('normall', function() {
             $(this).remove();
         });
-        $( "li" ).click(function() {
-            if($(this).has('ul')){
-                if($(this).children('ul').height()!=0){
-                    
-                    window.location.href = $(this).children('a').attr('href');
-                }
-               
-            }
-            
-          });
+
  
         /*------------------------------------
             02. Sticky Header
